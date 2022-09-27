@@ -1,0 +1,39 @@
+li {
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+ul {
+    padding-inline-start: 1.2em;
+}
+
+ul li {
+    list-style: none;
+}
+
+.dogs li::before {
+    content: "🐶";
+}
+
+.cats li::before {
+    content: "🐱";
+}
+
+.Snakes li::before {
+    content: "🐍";
+}
+
+.Lizzards li::before {
+    content: "🦎";
+}
+
+
+.birds li::before {
+    content: "🕊";
+}
+
+section {
+    border: 2px solid black;
+    margin-right: 100rem;
+    font-size: 1.5rem;
+}
